@@ -13,6 +13,7 @@
  * limitations under the License.
  */
 
+// 引入列表项构造函数
 import ItemData from './ItemData';
 
 /**
@@ -27,6 +28,7 @@ export class MainViewModel {
    */
   getSwiperImages(): Array<Resource> {
     let swiperImages: Resource[] = [
+      // app.media就是指resources/base/media目录
       $r('app.media.fig1'),
       $r('app.media.fig2'),
       $r('app.media.fig3'),

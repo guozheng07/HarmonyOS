@@ -12,6 +12,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// 引入列表项构造函数
 import ItemData from '@bundle:com.example.component/entry/ets/viewmodel/ItemData';
 /**
  * Binds data to components and provides interfaces.

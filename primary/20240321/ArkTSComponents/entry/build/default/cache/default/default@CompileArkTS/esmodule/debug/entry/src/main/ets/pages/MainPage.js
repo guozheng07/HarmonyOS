@@ -46,6 +46,13 @@ class MainPage extends ViewPU {
     set currentIndex(newValue) {
         this.__currentIndex.set(newValue);
     }
+    /**
+     * 通过@Builder来创建页签
+     * @param title 页签的标题
+     * @param index 页签的索引
+     * @param selectedImg 页签选中时的图片
+     * @param normalImg 页签未选中时的图片
+     */
     TabBuilder(title, index, selectedImg, normalImg, parent = null) {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
@@ -55,6 +62,7 @@ class MainPage extends ViewPU {
             Column.width(CommonConstants.FULL_PARENT);
             Column.onClick(() => {
                 this.currentIndex = index;
+                // 通过tabsController，切换到选中的页签
                 this.tabsController.changeIndex(this.currentIndex);
             });
             if (!isInitialRender) {
@@ -90,7 +98,9 @@ class MainPage extends ViewPU {
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
             Tabs.create({
+                // 页签在页面底部
                 barPosition: BarPosition.End,
+                // 页签控制器
                 controller: this.tabsController
             });
             Tabs.width(CommonConstants.FULL_PARENT);
@@ -127,6 +137,7 @@ class MainPage extends ViewPU {
                     this.TabBuilder.call(this, CommonConstants.HOME_TITLE, CommonConstants.HOME_TAB_INDEX, { "id": 16777377, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777376, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
+                // 页签1内容：Home组件
                 TabContent.pop();
             }
             ViewStackProcessor.StopGetAccessRecording();
@@ -154,6 +165,7 @@ class MainPage extends ViewPU {
                     this.TabBuilder.call(this, CommonConstants.MINE_TITLE, CommonConstants.MINE_TAB_INDEX, { "id": 16777387, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, { "id": 16777386, "type": 20000, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
                 } });
             if (!isInitialRender) {
+                // 页签2内容：Setting组件
                 TabContent.pop();
             }
             ViewStackProcessor.StopGetAccessRecording();

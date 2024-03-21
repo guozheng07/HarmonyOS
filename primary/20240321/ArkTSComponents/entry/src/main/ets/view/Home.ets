@@ -36,7 +36,7 @@ export default struct Home {
         }
         .width(CommonConstants.FULL_PARENT)
         .alignItems(HorizontalAlign.Start)
-
+        // 图片滚动区
         Swiper(this.swiperController) {
           ForEach(mainViewModel.getSwiperImages(), (img: Resource) => {
             Image(img).borderRadius($r('app.float.home_swiper_borderRadius'))
@@ -45,6 +45,7 @@ export default struct Home {
         .margin({ top: $r('app.float.home_swiper_margin') })
         .autoPlay(true)
 
+        // 网格列表1
         Grid() {
           ForEach(mainViewModel.getFirstGridData(), (item: ItemData) => {
             GridItem() {
@@ -59,10 +60,10 @@ export default struct Home {
             }
           }, (item: ItemData) => JSON.stringify(item))
         }
-        .columnsTemplate('1fr 1fr 1fr 1fr')
-        .rowsTemplate('1fr 1fr')
-        .columnsGap($r('app.float.home_grid_columnsGap'))
-        .rowsGap($r('app.float.home_grid_rowGap'))
+        .columnsTemplate('1fr 1fr 1fr 1fr') // 4行
+        .rowsTemplate('1fr 1fr') // 2列
+        .columnsGap($r('app.float.home_grid_columnsGap')) // 纵向间距
+        .rowsGap($r('app.float.home_grid_rowGap')) // 横向间距
         .padding({ top: $r('app.float.home_grid_padding'), bottom: $r('app.float.home_grid_padding') })
         .height($r('app.float.home_grid_height'))
         .backgroundColor(Color.White)
@@ -74,6 +75,7 @@ export default struct Home {
           .width(CommonConstants.FULL_PARENT)
           .margin({ top: $r('app.float.home_text_margin') })
 
+        // 网格列表2
         Grid() {
           ForEach(mainViewModel.getSecondGridData(), (secondItem: ItemData) => {
             GridItem() {

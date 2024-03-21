@@ -20,15 +20,15 @@ export default class PageResource {
   /**
    * Text of list item.
    */
-  title: Resource;
+  title: Resource; // 从Resource目录中引入
   /**
    * Image of list item.
    */
-  img: Resource;
+  img: Resource;  // 从Resource目录中引入
   /**
    * Other resource of list item.
    */
-  others?: Resource;
+  others?: Resource;  // 从Resource目录中引入
 
   constructor(title: Resource, img: Resource, others?: Resource) {
     this.title = title;

@@ -77,10 +77,14 @@ export default class Home extends ViewPU {
         Column.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            // 图片滚动区
             Swiper.create(this.swiperController);
+            // 图片滚动区
             Swiper.margin({ top: { "id": 16777308, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            // 图片滚动区
             Swiper.autoPlay(true);
             if (!isInitialRender) {
+                // 图片滚动区
                 Swiper.pop();
             }
             ViewStackProcessor.StopGetAccessRecording();
@@ -107,19 +111,30 @@ export default class Home extends ViewPU {
             ViewStackProcessor.StopGetAccessRecording();
         });
         ForEach.pop();
+        // 图片滚动区
         Swiper.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            // 网格列表1
             Grid.create();
+            // 网格列表1
             Grid.columnsTemplate('1fr 1fr 1fr 1fr');
+            // 网格列表1
             Grid.rowsTemplate('1fr 1fr');
+            // 网格列表1
             Grid.columnsGap({ "id": 16777294, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            // 网格列表1
             Grid.rowsGap({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            // 网格列表1
             Grid.padding({ top: { "id": 16777297, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" }, bottom: { "id": 16777297, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
+            // 网格列表1
             Grid.height({ "id": 16777295, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            // 网格列表1
             Grid.backgroundColor(Color.White);
+            // 网格列表1
             Grid.borderRadius({ "id": 16777293, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
             if (!isInitialRender) {
+                // 网格列表1
                 Grid.pop();
             }
             ViewStackProcessor.StopGetAccessRecording();
@@ -227,6 +242,7 @@ export default class Home extends ViewPU {
             ViewStackProcessor.StopGetAccessRecording();
         });
         ForEach.pop();
+        // 网格列表1
         Grid.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
@@ -243,15 +259,24 @@ export default class Home extends ViewPU {
         Text.pop();
         this.observeComponentCreation((elmtId, isInitialRender) => {
             ViewStackProcessor.StartGetAccessRecordingFor(elmtId);
+            // 网格列表2
             Grid.create();
+            // 网格列表2
             Grid.width(CommonConstants.FULL_PARENT);
+            // 网格列表2
             Grid.height({ "id": 16777305, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            // 网格列表2
             Grid.columnsTemplate('1fr 1fr');
+            // 网格列表2
             Grid.rowsTemplate('1fr 1fr');
+            // 网格列表2
             Grid.columnsGap({ "id": 16777294, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            // 网格列表2
             Grid.rowsGap({ "id": 16777298, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" });
+            // 网格列表2
             Grid.margin({ bottom: { "id": 16777346, "type": 10002, params: [], "bundleName": "com.example.component", "moduleName": "entry" } });
             if (!isInitialRender) {
+                // 网格列表2
                 Grid.pop();
             }
             ViewStackProcessor.StopGetAccessRecording();
@@ -372,6 +397,7 @@ export default class Home extends ViewPU {
             ViewStackProcessor.StopGetAccessRecording();
         });
         ForEach.pop();
+        // 网格列表2
         Grid.pop();
         Column.pop();
         Scroll.pop();

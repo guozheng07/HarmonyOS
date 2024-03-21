@@ -26,6 +26,13 @@ struct MainPage {
   @State currentIndex: number = CommonConstants.HOME_TAB_INDEX;
   private tabsController: TabsController = new TabsController();
 
+  /**
+   * 通过@Builder来创建页签
+   * @param title 页签的标题
+   * @param index 页签的索引
+   * @param selectedImg 页签选中时的图片
+   * @param normalImg 页签未选中时的图片
+   */
   @Builder TabBuilder(title: string, index: number, selectedImg: Resource, normalImg: Resource) {
     Column() {
       Image(this.currentIndex === index ? selectedImg : normalImg)
@@ -41,28 +48,35 @@ struct MainPage {
     .width(CommonConstants.FULL_PARENT)
     .onClick(() => {
       this.currentIndex = index;
+      // 通过tabsController，切换到选中的页签
       this.tabsController.changeIndex(this.currentIndex);
     })
   }
 
   build() {
     Tabs({
+      // 页签在页面底部
       barPosition: BarPosition.End,
+      // 页签控制器
       controller: this.tabsController
     }) {
+      // 页签1内容：Home组件
       TabContent() {
         Home()
       }
       .padding({ left: $r('app.float.mainPage_padding'), right: $r('app.float.mainPage_padding') })
       .backgroundColor($r('app.color.mainPage_backgroundColor'))
+      // 页签1
       .tabBar(this.TabBuilder(CommonConstants.HOME_TITLE, CommonConstants.HOME_TAB_INDEX,
         $r('app.media.home_selected'), $r('app.media.home_normal')))
 
+      // 页签2内容：Setting组件
       TabContent() {
         Setting()
       }
       .padding({ left: $r('app.float.mainPage_padding'), right: $r('app.float.mainPage_padding') })
       .backgroundColor($r('app.color.mainPage_backgroundColor'))
+      // 页签2
       .tabBar(this.TabBuilder(CommonConstants.MINE_TITLE, CommonConstants.MINE_TAB_INDEX,
         $r('app.media.mine_selected'), $r('app.media.mine_normal')))
     }
