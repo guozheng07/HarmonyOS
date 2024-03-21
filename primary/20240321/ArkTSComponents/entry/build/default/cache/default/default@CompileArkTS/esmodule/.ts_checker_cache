@@ -1,0 +1,340 @@
+{
+  "runtimeOS": "HarmonyOS",
+  "sdkInfo": "false:9:3.2.12.5:Release",
+  "fileList": {
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/entryability/EntryAbility.ts": {
+      "mtimeMs": 1692160966000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/pages/LoginPage.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.UIAbility.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.Ability.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.Configuration.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/application/UIAbilityContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/bundleManager/AbilityInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/bundleManager/ApplicationInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.bundle.bundleManager.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/bundleManager/BundleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/bundleManager/HapModuleInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/bundleManager/ExtensionAbilityInfo.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/ability/abilityResult.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/ability/connectOptions.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.rpc.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/application/Context.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.resourceManager.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/application/ApplicationContext.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.AbilityLifecycleCallback.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.window.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.multimedia.image.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.EnvironmentCallback.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.app.ability.dialogRequest.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [],
+      "parent": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/pages/LoginPage.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.promptAction.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.router.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Home.ets": {
+      "mtimeMs": 1697165058000,
+      "children": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Setting.ets": {
+      "mtimeMs": 1697165058000,
+      "children": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets"
+      ],
+      "parent": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets": {
+      "mtimeMs": 1697165058000,
+      "children": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [],
+      "parent": [
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/guozheng/Desktop/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/build-tools/ets-loader/declarations/canvas.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/build-tools/ets-loader/declarations/common.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/component/common.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/build-tools/ets-loader/declarations/web.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/api/@ohos.web.webview.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Library/Huawei/Sdk/openharmony/9/ets/build-tools/ets-loader/declarations/matrix2d.d.ts": {
+      "mtimeMs": 978278400000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/entryability/EntryAbility.ts": {
+      "mtimeMs": 1692160966000,
+      "children": [],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/pages/LoginPage.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "parent": [],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [],
+      "parent": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/pages/LoginPage.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Home.ets": {
+      "mtimeMs": 1697165058000,
+      "children": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Setting.ets": {
+      "mtimeMs": 1697165058000,
+      "children": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/common/constants/CommonConstants.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets"
+      ],
+      "parent": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/pages/MainPage.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets": {
+      "mtimeMs": 1697165058000,
+      "children": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets"
+      ],
+      "parent": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    },
+    "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/ItemData.ets": {
+      "mtimeMs": 1695806736000,
+      "children": [],
+      "parent": [
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Home.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/viewmodel/MainViewModel.ets",
+        "/Users/guozheng/Desktop/front-learn/HarmonyOS/primary/20240321/ArkTSComponents/entry/src/main/ets/view/Setting.ets"
+      ],
+      "error": false
+    }
+  }
+}
